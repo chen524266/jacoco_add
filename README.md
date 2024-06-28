@@ -1,6 +1,6 @@
 ###Introduction
 
-Based on the jacoco branch  0.8.7, merging incremental coverage and different class code coverage at different time notes.
+Based on the jacoco branch  0.8.7, generate incremental code coverage and merge different exec files at different classId and different time.
 
 Please refer to the blog for the second development strategy https://blog.csdn.net/qq_34418450/article/details/135386280?spm=1001.2014.3001.5501
 
@@ -10,7 +10,7 @@ Usage:
 
 --Diffcode is incremental statistics, without it, the total quantity is counted.
 
---OnlyMergeExec=true Do not produce reports, merge probe data, and generate merged exec files
+--OnlyMergeExec=true Do not generate reports, merge probe data, and generate merged exec files
 
 --MergeExecfilepath requires merging exec probe files
 
